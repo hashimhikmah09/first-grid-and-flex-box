@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+main {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 15px;
+    font-family: Lexend Deca;
+    background-color: ghostwhite;
+    font-weight: 400;
+    
+
+}
+#container{
+    display: flex;
+    text-align: block;
+    padding: 20px;
+    margin: 50px 20px 50px 50px;
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+    font-size: 15px;
+  
+
+}
+.box1{
+    background-color:hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 100%;
+    height:60vh;
+    border-radius: 3px;
+}
+.box2{
+    background-color:hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 100%;
+    height: 60vh;
+    border-radius: 3px;
+}
+.box3{
+        background-color:hsl(179, 100%, 13%);
+        padding: 2em;
+        width: 100%;
+        height: 60vh;
+        border-radius: 3px;
+}
+img,h2,p {
+    margin-bottom: 15px;
+}
+.sign1{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    border: 0;
+    margin: 20px;
+    
+}
+.sign2{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    color:hsl(184, 100%, 22%);
+    border: 0;
+    margin: 20px;
+}
+.sign3{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    border: 0;
+    margin: 20px;
+}
